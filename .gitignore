@@ -1,0 +1,104 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+.vs/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
+# System files
+.DS_Store
+Thumbs.db
+# Dependencias
+node_modules/
+
+# Archivos de build
+dist/
+out-tsc/
+build/
+
+# Angular cache
+.angular/cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de entorno locales
+src/environments/environment.development.ts
+src/environments/environment.local.ts
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+.vscode/
+.vs/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Archivos temporales
+*.tmp
+*.temp
+*.cache
+
+# Coverage (tests)
+coverage/
+
+# Archivos de pruebas generados
+*.spec.ts
+
+# Archivos de lock opcionales (elige uno según tu gestor)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Archivos de configuración local
+.angular-config.json
+
+# Firebase / otros (opcional)
+.firebase/
+
+# Archivos de despliegue
+.vercel/
+.netlify/
